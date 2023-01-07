@@ -1,0 +1,223 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alireza Dehghanzadeh
+    tagline: Researcher Student at <a href="https://ut.ac.ir/en">University of Tehran</a>
+    avatar: Profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: adehghanzadeh@ut.ac.ir
+    #phone: 012 345 6789
+    timezone: Asia/Tehran
+    citizenship: 
+    website: alerezaa.ir #do not add http://
+    linkedin: dehghanzadeh
+    #xing: alandoe
+    github: alerezaaa
+    telegram: iAlirezaD # add your nickname without '@' sign
+    gitlab: 
+    bitbucket:
+    twitter: '@alerezaa_'
+    stack-overflow: 16308776/alireza # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: # http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Persian
+          level: Native
+
+        - idiom: English
+          level: Proficiency
+
+        - idiom: Azerbaijani
+          level: Limited
+
+    interests:
+      title: Interests
+      info:
+        - item: Linux
+          link:
+
+        - item: Coding (Python, Go, Rust)
+          link:
+
+        - item: Machine Learning
+          link:
+
+        - item: Cyber security
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer.
+
+      Second paragraph if required.
+
+education:
+    title: Education
+    info:
+      - degree: MSc in Biosystems Engineering
+        university: University of Tehran
+        time: 2020 - Present
+        details: |
+          Consist of 5 semesters (3 lecture based + 2 research based).
+          The first 3 semesters holded during coronavirus lock-down, so I didnt have much chance to contact the professors.
+          
+          Some of noteworthy lectures are: 
+            - Artificial Intelligence (Machine Learning)
+            - Limit Element Method
+            - Automatic Control Systems
+      
+      - degree: BSc in Biosystems Engineering
+        university: University of Tabriz
+        time: 2016 - 2020
+        details: |
+          First, I started to learn fundementals under supervising of
+          <a href='https://www.researchgate.net/profile/Hossein-Behfar'>Dr. Hossein Behfar</a>
+          during <i>Measuring and Control tools</i> course (semester 5th),
+          but after a semester, my co-learners decided to exit and I couldnt continue alone.
+          
+          Shortly, I start working with <a href='http://infoag.ir/en/'>Precision Agriculture group</a>
+          which I'm pround of it. (details in experience section below)
+            
+          Highlighted courses which I'd like to share:
+            - Computer Programming (C programming language)
+            - Mechanical Engineering Design
+            - Measuring and Control tools
+            - Maintenance Engineering
+
+experiences:
+    title: Experiences
+    info:
+      - role: Researcher Student
+        time: 2021 - Present
+        company: University of Tehran
+        details: |
+          Researching on Machine Learning models to refine Reconstructed ECT images. (ECT: Electrical Capacitance Tomography)
+          My master thesis recommended by supervisor, Dr. Hossein Mousazadeh.
+          Based on request from Port &amp; Maritine Orginization of Iran.
+          Main skills involved is:
+            - Machine Learning
+            - Image Processing
+            - Programming skills (Python and a bit C# to read written code)
+
+      - role: Assistant Producer
+        time: 2018 - 2021
+        company: University of Tabriz
+        details: |
+          Working as a part of <a href='http://infoag.ir/en/'>Precision Agriculture group</a> at Biosystem Engineering department in University of Tabriz.
+          Under supervising of <a href='https://www.researchgate.net/profile/Hossein-Navid'>Dr Hossein Navid</a>
+          and advise of <a href='https://www.linkedin.com/in/hadi-karimi-77865b87/'>Dr Hadi Karimi</a>.
+          I'm rarely involved in their projects since I start master at University of Tehran.
+            - Remote Controller for Silage Block Cutting Machine Remote
+                - Programming Arduino
+                - Electrical circuits
+                - Control systems
+            - Pipe cuttig decision system based in image processing using Raspberry Pi
+                - Linux fundementals (Raspberry Pi)
+                - Python
+                - Image Processing fundementals
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Pipe cuttig decision system based in image processing using Raspberry Pi
+        link: "#hook"
+        tagline: "Create an Image Processing service based on Rasberry Pi 4 as a project for a small manufactral Designing group."
+
+      - title: Remote Controller for Silage Block Cutting Machine Remote
+        link: "#"
+        tagline: |
+            A remote controlling system to control the silage-cutting-machine using wireless technology.
+            Done with Arduino and electrical circuits and control system.
+            Android application developed by <a href='https://www.linkedin.com/in/ali-khalili-790b10146/'>Eng. Ali Khalili</a>
+            Based on React-native.
+
+      - title: Basil Harvester
+        link: "https://alerezaa.ir/projects/basil_harvester/"
+        tagline: |
+            (Team project) Design a machine to harvest basils as a successor to Scissor Jack since we got the highest score.
+            Team members: <a href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/">Anis Azarmikhah</a>,
+            <a href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/">Hadi Farahmand</a>,
+            Samira Komeili, Niloufar Rahimi.
+            Course: Design of Harvesting Machine
+
+      - title: Scissor Jack
+        link: "https://alerezaa.ir/projects/scissor_jack/"
+        tagline: |
+            (Team project) Apply Mechanical Engineering Design knowledge to Design a scissor jack as a course project.
+            Team members: <a href="https://www.linkedin.com/in/anis-azarmikhah-65a131203/">Anis Azarmikhah</a>,
+            <a href="https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/">Hadi Farahmand</a>,
+            Samira Komeili, Niloufar Rahimi.
+            Course: Mechanical Enginnering Design
+
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Python
+        level: 40%
+
+      - name: Bash (linux)
+        level: 50%
+      
+      - name: JavaScript
+        level: 10%
+
+      - name: Web Application Security
+        level: 11%
+
+
+
+# oss:
+#     title: OSS Contributions
+#     intro: >
+#       You can list your open source software contributions in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     contributions:
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> | Hosted by <a href="https://pages.cloudflare.com" target="_blank" rel="nofollow">Cloudflare Pages</a>
